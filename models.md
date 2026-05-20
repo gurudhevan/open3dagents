@@ -23,7 +23,6 @@ Set **Function Calling → Native** in Open WebUI's model Advanced Params for ev
 |---|---|---|---|---|
 | `qwen3-coder:30b` | `ollama run qwen3-coder:30b` | ~20GB | ✅ Excellent | Scripting-heavy and code-driven tasks |
 | `qwen2.5:14b` | `ollama run qwen2.5:14b` | ~10GB | ✅ Good | Best balance of size and reliability |
-| `qwen2.5:7b` | `ollama run qwen2.5:7b` | ~5GB | ⚠️ Inconsistent | Simple single-tool tasks only |
 
 > Models under 14B may struggle with complex multi-tool Blender operations and frequently fail to generate valid tool call JSON.
 
